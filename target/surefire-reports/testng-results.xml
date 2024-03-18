@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[No of rows are::5]]>
+    </line>
+    <line>
+      <![CDATA[Pruches number matching::Purchase-00000000068 Purchase-00000000068]]>
+    </line>
+    <line>
+      <![CDATA[Total balance matching::90 Rp 90]]>
+    </line>
+    <line>
+      <![CDATA[Pruches number matching::Purchase-00000000069 Purchase-00000000069]]>
+    </line>
+    <line>
+      <![CDATA[Total balance matching::180 Rp 180]]>
+    </line>
+    <line>
+      <![CDATA[Pruches number matching::Purchase-00000000070 Purchase-00000000070]]>
+    </line>
+    <line>
+      <![CDATA[Total balance matching::270 Rp 270]]>
+    </line>
+    <line>
+      <![CDATA[Pruches number matching::Purchase-00000000071 Purchase-00000000071]]>
+    </line>
+    <line>
+      <![CDATA[Total balance matching::360 Rp 360]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-06T21:49:35 IST" name="Surefire suite" finished-at="2024-03-06T21:50:20 IST" duration-ms="44935">
+    <groups>
+    </groups>
+    <test started-at="2024-03-06T21:49:35 IST" name="Surefire test" finished-at="2024-03-06T21:50:20 IST" duration-ms="44935">
+      <class name="driverFactory.AppTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.AppTest@5ace1ed4]" started-at="2024-03-06T21:49:35 IST" name="setUp" finished-at="2024-03-06T21:49:40 IST" duration-ms="5147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="add_purchase()[pri:0, instance:driverFactory.AppTest@5ace1ed4]" started-at="2024-03-06T21:49:40 IST" name="add_purchase" finished-at="2024-03-06T21:50:19 IST" duration-ms="39039" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::5]]>
+            </line>
+            <line>
+              <![CDATA[Pruches number matching::Purchase-00000000068 Purchase-00000000068]]>
+            </line>
+            <line>
+              <![CDATA[Total balance matching::90 Rp 90]]>
+            </line>
+            <line>
+              <![CDATA[Pruches number matching::Purchase-00000000069 Purchase-00000000069]]>
+            </line>
+            <line>
+              <![CDATA[Total balance matching::180 Rp 180]]>
+            </line>
+            <line>
+              <![CDATA[Pruches number matching::Purchase-00000000070 Purchase-00000000070]]>
+            </line>
+            <line>
+              <![CDATA[Total balance matching::270 Rp 270]]>
+            </line>
+            <line>
+              <![CDATA[Pruches number matching::Purchase-00000000071 Purchase-00000000071]]>
+            </line>
+            <line>
+              <![CDATA[Total balance matching::360 Rp 360]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- add_purchase -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:driverFactory.AppTest@5ace1ed4]" started-at="2024-03-06T21:50:19 IST" name="teardown" finished-at="2024-03-06T21:50:20 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- driverFactory.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
